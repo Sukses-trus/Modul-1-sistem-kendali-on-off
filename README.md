@@ -1,4 +1,4 @@
-# Modul-1-sistem-kendali-on-off
+# Modul 1-sistem-kendali-on-off
 Nama : Farhan Syaibir
 NIM  : 6702194079
 Nama : Aldhiansyah Ramadhan
