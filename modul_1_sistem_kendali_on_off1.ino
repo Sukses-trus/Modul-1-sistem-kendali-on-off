@@ -54,7 +54,7 @@ Serial.println(baca_sensor[0]);
 void loop(){
 readsensor();
 
-//jika sensor 1 dan 2 mendeteksi gelap, maka motor kanan menyala
+//jika sensor 1 dan 2 mendeteksi gelap, maka motor bagian kanan menyala
 if (baca_sensor[0] < 34 && baca_sensor[1] < 34 && baca_sensor[2] > 34 && baca_sensor[3] > 34 && baca_sensor[4] > 34 && baca_sensor[5] > 34){
 digitalWrite (pinEnable, HIGH);
 digitalWrite (pinEnable2, HIGH);
@@ -74,7 +74,7 @@ digitalWrite (motor_on1, HIGH);
 digitalWrite (motor_on2, LOW);
 }
 
-//jika sensor 5 dan 6 mendeteksi gelap, maka motor kiri menyala
+//jika sensor 5 dan 6 mendeteksi gelap, maka bagian motor kiri menyala
 if (baca_sensor[0] > 34 && baca_sensor[1] > 34 && baca_sensor[2] > 34 && baca_sensor[3] > 34 && baca_sensor[4] < 34 && baca_sensor[5] < 34){
 digitalWrite (pinEnable, HIGH);
 digitalWrite (pinEnable2, HIGH);
